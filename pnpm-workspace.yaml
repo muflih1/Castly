@@ -1,0 +1,6 @@
+packages:
+  - apps/*
+  - packages/*
+
+overrides:
+  utils: link:../../../.local/share/pnpm/global/5/node_modules/@twitch/utils
